@@ -55,6 +55,8 @@ for comment in user_comments[target_user_id]:
     activity_matrix[hour, weekday] += 1
 
 
+plt.rcParams['font.family'] = 'NanumGothic'
+ # 한글 포트 설치 후 적용
 
 # 시간대별 댓글 수 행렬 시각화
 plt.figure(figsize=(6, 8))
